@@ -44,7 +44,7 @@
 }
 
 /* Make Hidden */
-.layout-buttons {
+/* .layout-buttons {
     display: none !important;
     height: 0;
     mso-hide: all;
@@ -53,7 +53,7 @@
     width: 0;
     line-height: 0;
     font-size: 0;
-}
+} */
 
 .layout-buttons a {
     border-color: #4E5054;
