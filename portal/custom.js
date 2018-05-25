@@ -1,26 +1,17 @@
 /* PureConnect */
+var pureconnectLogoHtml = '<img class="pureconnect-logo platform-logo" src="https://genesys.aha.io/attachments/6558391697642203884/token/c32652a985067f60c734f94540e009541b8420a2f9fffe689301e1c3f136b74d" alt="PureConnect Logo">'
 
-$('.pureconnect-title').append('PureConnect Ideas');
-
-var pureconnectLogoHtml = '<img class="pureconnect-logo" src="https://genesys.aha.io/attachments/6527300554831414605/token/a5b80efef5f49083f72bc527e72afc74b7b2d718f684def6ca1eef60258937c7" alt="PureConnect Logo">'
-
-$('.pureconnect-logo').append(pureconnectLogoHtml);
+$('.pureconnect-logo-container').append(pureconnectLogoHtml);
 
 /* PureEngage */
+var pureengageLogoHtml = '<img class="pureengage-logo platform-logo" src="https://genesys.aha.io/attachments/6558391697560195619/token/14642e301b4f1e304c1910776927d0e39060455082714a79e13bfd757d0db14b" alt="PureEngage Logo">'
 
-$('.pureengage-title').append('PureEngage Ideas');
-
-var pureengageLogoHtml = '<img class="pureengage-logo" src="https://genesys.aha.io/attachments/6527300554169986560/token/7c948cfbbb95084e4a95aee4d9d63fe4ee46f60083d13f3b196211ffa2653a96" alt="PureEngage Logo">'
-
-$('.pureengage-logo').append(pureengageLogoHtml);
+$('.pureengage-logo-container').append(pureengageLogoHtml);
 
 /* PureCloud */
+var purecloudLogoHtml = '<img class="purecloud-logo platform-logo" src="https://genesys.aha.io/attachments/6558391697591354673/token/5d7359f0724b204284812c8b7e35fb0da4971b5e8181abebaf46a2140f2b7079" alt="PureCloud Logo">'
 
-$('.purecloud-title').append('PureCloud Ideas');
-
-var purecloudLogoHtml = '<img class="purecloud-logo" src="https://genesys.aha.io/attachments/6527313548979542257/token/475cae406c1beddffe4953558e33aead8ab62edb7678066ff390384e1e5b5266" alt="PureCloud Logo">'
-
-$('.purecloud-logo').append(purecloudLogoHtml);
+$('.purecloud-logo-container').append(purecloudLogoHtml);
 
 /* Genesys */
 

@@ -52,8 +52,8 @@ a:hover {
 }
 
 .genesys-header .title {
-    width: 77%;
-    padding-left: 20px;
+    width: 100%;
+    padding-left: 0px;
     box-sizing: border-box;
 }
    
@@ -78,21 +78,30 @@ a:hover {
     text-align: center;
     margin: 0;
 }
+.genesys-header .logo-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .genesys-header .logo h3 strong {
     font-weight: 900;
 }
 
-.genesys-header .pureconnect-logo {
-    max-width: 160px;
+.genesys-header .ideas-lab-logo {
+    max-width: 500px;
 }
 
-.genesys-header .purecloud-logo {
-    max-height: 165px;
+.genesys-header .platform-logo-container {
+    flex: 0 1 auto;
+}
+.genesys-header .primary-logo {
+    flex: 0 1 auto;
 }
 
-.genesys-header .pureengage-logo {
-    max-height: 150px;
+.genesys-header .platform-logo {
+    max-height: 100px;
+    margin-right: 10px;
 }
 
 .submit-only .genesys-header {
