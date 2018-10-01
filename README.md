@@ -30,11 +30,11 @@ This is the code that actually puts the individual logo and title into the heade
 ## Email Branding
 Aha does not give us total control of the email so we have to be quite creative to customize the format the way we want, and there are lots of limitations to what we can do. When editing the email templates make sure to test at a minimum in outlook and attempt to forward to another email address.
 
-There are four email templates for each of the emails Aha sends out. They are New Idea, Status Changed, Admin Response, and New Comment. These templates will need to be copied into the Aha site for each of the product portals.
+There are four email templates for each of the emails Aha sends out. They are **New Idea**, **Status Changed**, **Admin Response**, and **New Comment**.
 
-When copying the template to each portal, make sure the reference number hyperlink points to the appropriate portal.
+`node email\emailTemplateGen.js` will generate the email bodies for each template for each portal under the `email\gen` directory. This will modify the portal links appropriately so that it does not need to be done manually. You can then copy the generated file to the appropriate email body field in Aha. For example, the contents of **pureconnect admin response.txt** can be copied to the Admin Reponse email body field in the PureConnect portal.
 
-Email template.css holds the email stylesheet and can be used for all email templates. It should be copied into the Custom Email Css field on the product portal.
+Email template.css holds the email stylesheet and can be used for all email templates. It should be copied into the **Custom Email Css** field on the product portal.
 
 ## Images
 All images used in branding can be found in the Aha Branding Resources workflow. This workflow is just a placeholder that allows us to attach as many images or other resources we need for branding. These resources can then be linked from the branding templates.
