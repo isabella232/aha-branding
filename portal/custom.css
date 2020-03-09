@@ -45,8 +45,13 @@ a:hover {
 /************************************************/
 .genesys-header {
      background-color: #5D3E5D;
-     padding: 20px 0px 0px 0px;
+     padding: 0px 0px 0px 0px;
 }
+.highlight {
+     color: #FF4F1F;
+     font-size:  12.5px;
+}
+
 .genesys-header h1 {
     color: #FFFFFF; /*Genesys White*/
 }
@@ -97,6 +102,7 @@ a:hover {
 }
 .genesys-header .primary-logo {
     flex: 0 1 auto;
+    margin-left: 0px; /* align with text below */
 }
 
 .genesys-header .platform-logo {
