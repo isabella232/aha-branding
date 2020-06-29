@@ -7,7 +7,7 @@ var titleHtml;
 if(origin.indexOf('pureconnect') > -1) {
     logoHtml = '<img class="pureconnect-logo platform-logo" src="https://genesys.aha.io/attachments/6558391697642203884/token/c32652a985067f60c734f94540e009541b8420a2f9fffe689301e1c3f136b74d" alt="PureConnect Logo">'
     context='pureconnect';
-    titleHtml='<b><span class="highlight">PureConnect</span></b>';
+    titleHtml='<b><span class="highlight">PureConnect</span></b> Genesys';
 }
 
 if(origin.indexOf('pureengage') > -1) {
@@ -24,7 +24,7 @@ if(origin.indexOf('purecloud') > -1) {
 
 if(origin.indexOf('genesys') > -1) {
     logoHtml = '<img class="platform-logo" src="https://genesys.aha.io/attachments/6559232633694973713/token/ebf7111ec79581638affbd1a300c7155012fcc233ca0739ab7158f2ed291a827" alt="Genesys Ideas Labs Logo">'
-    titleHtml='<span>Master</span>';
+    titleHtml='<span>Master Genesys</span>';
 }
 
 $('.platform-logo-container').append(logoHtml);
