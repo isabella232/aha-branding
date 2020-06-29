@@ -110,6 +110,16 @@ a:hover {
     margin-right: 10px;
 }
 
+.genesys-header .platform-logo.pureengage-logo {
+  margin-top: 10px;
+  max-height: 80px;
+}
+
+.genesys-header .platform-logo.purecloud-logo {
+  margin-top: 10px;
+  max-height: 80px;
+}
+
 .submit-only .genesys-header {
     text-align: left;
 }

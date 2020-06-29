@@ -11,15 +11,15 @@ if(origin.indexOf('pureconnect') > -1) {
 }
 
 if(origin.indexOf('pureengage') > -1) {
-    logoHtml = '<img class="pureengage-logo platform-logo" src="https://genesys.aha.io/attachments/6558391697560195619/token/14642e301b4f1e304c1910776927d0e39060455082714a79e13bfd757d0db14b" alt="PureEngage Logo">'
+    logoHtml = '<img class="pureengage-logo platform-logo" src="https://genesys.aha.io/attachments/6843759719316910111/token/a25675390f02bd31703705ec920e5f23d5f9f5041103b12ce6835e3145b06635" alt="Genesys Engage Logo">'
     context='pureengage';
-    titleHtml='<b><span class="highlight">PureEngage</span></b>';
+    titleHtml='<b><span class="highlight">Genesys Engage</span></b>';
 }
 
 if(origin.indexOf('purecloud') > -1) {
-    logoHtml = '<img class="purecloud-logo platform-logo" src="https://genesys.aha.io/attachments/6558391697591354673/token/5d7359f0724b204284812c8b7e35fb0da4971b5e8181abebaf46a2140f2b7079" alt="PureCloud Logo">'
+    logoHtml = '<img class="purecloud-logo platform-logo" src="https://genesys.aha.io/attachments/6843759719224569046/token/06df81c6f1ca34d66c1ceb3216ba9467789af9300a3e7806aaa4378992c6fce0" alt="Genesys Cloud Logo">'
     context='purecloud';
-    titleHtml='<b><span class="highlight">PureCloud</span></b>';
+    titleHtml='<b><span class="highlight">Genesys Cloud</span></b>';
 }
 
 if(origin.indexOf('genesys') > -1) {
