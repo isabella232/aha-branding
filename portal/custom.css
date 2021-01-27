@@ -24,27 +24,27 @@ a:hover {
 }
 
 .ideas .idea a {
-    color: #5D3E5D; /*Genesys Plum*/
+    color: #23395D; /*Genesys Blue*/
 }
 
 .btn-vote {
-    border-color: #5D3E5D; /*Genesys Plum*/
-    color: #5D3E5D;
+    border-color: #23395D; /*Genesys Blue*/
+    color: #23395D;
 }
 
 .btn-vote .vote-status {
-    background-color: #5D3E5D; /*Genesys Plum*/
+    background-color: #23395D; /*Genesys Blue*/
 }
 
 .filters .filter.active {
-    background-color: #5D3E5D; /*Genesys Plum*/
+    background-color: #23395D; /*Genesys Blue*/
 }
 
 /************************************************/
 /*   GENESYS HEADER STYLES                      */
 /************************************************/
 .genesys-header {
-     background-color: #355793;
+     background-color: #23395D; /*Genesys Blue*/
      padding: 0px 0px 0px 0px;
 }
 .highlight {
